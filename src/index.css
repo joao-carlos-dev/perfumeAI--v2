@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-accent: var(--accent);
+  --color-brand-bg: var(--bg);
+}
+
+:root {
+  --accent: #E88C05;
+  --bg: #020617;
+  --text: #6b6375;
+}
+
+#root {
+  width: 100%;
+  /* max-width: 1126px; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
